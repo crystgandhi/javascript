@@ -1,4 +1,4 @@
-/*var obj={name: "Gandhi", age: "45"}
+/*var obj={name: "john", age: "45"}
 
 function printName(id, profession){
     return "My name is " + this.name + "."+ " I am " + this.age +" years old." + " My id is " + id + 
@@ -9,7 +9,7 @@ console.log(bindFunc(64,"professor"))
 console.log(bindFunc(60,"assistant professor"))
 ___________________________________________________________________________
 const age1=10
-var person={myname:"Gandhimathi", 
+var person={myname:"Johnsmith", 
 age1:30,
 getAge:function(){
     return this.age1
