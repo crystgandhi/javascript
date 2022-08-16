@@ -1,9 +1,9 @@
 function reverseString(str) {
     return str.split(" ").reverse().join(" "); 
 }
-console.log(reverseString("Wekcome home Gandhimathi"))
+console.log(reverseString("Wekcome home Johnsmith"))
 
-const myString="Welcome home Gandhimathi"
+const myString="Welcome home Johnsmith"
 console.log(myString.split("").reverse().join(""))
 
 function reverseInPlace(str) {
@@ -16,6 +16,6 @@ function reverseInPlace(str) {
     }
     return result;
   }
-  console.log(reverseInPlace("Welcome home Gandhimathi"));
+  console.log(reverseInPlace("Welcome home Johnsmith"));
 
   
